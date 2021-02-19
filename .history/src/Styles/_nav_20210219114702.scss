@@ -1,0 +1,32 @@
+$desktop:1200px;
+$laptop:992px;
+$tablet:768px;
+$phone:480px;
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h1{
+        font-size: 1rem;
+    }
+    button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        border: 2px solid rgb(65, 65, 65);
+        padding: 0.5rem;
+        transition: all 0.3 ease;
+        &:hover{
+            background: rgb(65, 65, 65);
+            color: white;
+        }
+    }
+}
+@media screen and (max-width:$tablet){
+    nav{
+        button{
+            z-index: 10;
+        }
+    }
+}

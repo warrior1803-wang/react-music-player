@@ -1,0 +1,28 @@
+@import './song';
+@import './player';
+@import './-library';
+@import './nav';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color:rgb(58, 56, 56);
+
+}
+h3,h4{
+    font-weight: 400;
+    color:rgb(100, 100, 100) ;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+.App{
+transition: all,0.5s.;
+}
+.library-active{
+    margin-left: 30%;
+}
